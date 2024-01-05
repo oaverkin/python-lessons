@@ -48,7 +48,7 @@ jobs:
           poetry install --no-interaction
           python -m pip install playwright
           pip install pytest-playwright
-          python -m playwright install
+          python -m playwright install chromium
       #----------------------------------------------
       #              run test suite
       #----------------------------------------------
