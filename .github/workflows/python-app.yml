@@ -47,6 +47,8 @@ jobs:
       - name: Install project
         run: |
           poetry install --no-interaction
+          python -m pip install playwright
+          pip install pytest-playwright
           python -m playwright install
       #----------------------------------------------
       #              run test suite
