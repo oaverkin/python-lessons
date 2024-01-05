@@ -8,3 +8,5 @@ class DocsPage(BasePage):
 
     def __init__(self, page: Page):
         super().__init__(page)
+
+        self.getting_started_link = page.get_by_role("link", name="Getting Started", exact=True)
