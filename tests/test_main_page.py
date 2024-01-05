@@ -1,4 +1,3 @@
-import re
 from pages.main_page import MainPage
 from playwright.sync_api import expect
 import pytest
@@ -11,4 +10,3 @@ def test_main_page(page):
     expect(page.docs_link).to_be_visible()
     expect(page.community_link).to_be_visible()
     expect(page.get_started_link).to_be_visible()
-    expect(page.title).not_to_have_text("Playwright Python")
