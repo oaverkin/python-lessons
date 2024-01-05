@@ -54,4 +54,10 @@ jobs:
       #----------------------------------------------
       - name: Run tests
         run: |
-          poetry run pytest
+          poetry run pytest --template=html1/index.html --report=report.html
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test run report
+          path: report.html
+
