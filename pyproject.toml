@@ -2,7 +2,7 @@
 name = "python-lessons"
 version = "0.1.0"
 description = ""
-authors = ["Oleg Averkin <olaverkin@lohika.com>"]
+authors = ["Oleg Averkin <averkinoa@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
