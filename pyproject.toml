@@ -12,6 +12,7 @@ selenium = "^4.16.0"
 pytest-reporter-html1 = "^0.8.3"
 setuptools = "^69.0.3"
 pytest-xdist = "^3.5.0"
+flask = "^3.0.3"
 
 
 [build-system]
